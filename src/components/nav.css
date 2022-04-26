@@ -1,0 +1,22 @@
+:root {
+    --body-bg: #E5E5E5;
+    --nav-bg: #F55A5A;
+    --journal-bg: #ffffff;
+    --text-color: #2B283A;
+    --gray-text-color: #918E9B;
+    --line-color: #f5f5f5;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--nav-bg);
+    height: 55px;
+}
+
+#nav--icon {
+    font-size: 25px;
+}

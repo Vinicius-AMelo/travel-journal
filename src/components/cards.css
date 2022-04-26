@@ -1,0 +1,54 @@
+:root {
+    --body-bg: #E5E5E5;
+    --nav-bg: #F55A5A;
+    --journal-bg: #ffffff;
+    --text-color: #2B283A;
+    --gray-text-color: #918E9B;
+    --line-color: #f5f5f5;
+}
+
+#cards {
+    background-color: #fff;
+    display: flex;
+}
+
+#card--img {
+    width: 125px;
+    height: 168px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+#card--stats {
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.title {
+    padding: 7px 0 14px 0;
+}
+
+.date {
+    padding: 0px 0 7px 0;
+}
+
+#card--stats--location {
+    letter-spacing: 0.17em;
+    margin: 0px 10px 0 3px;
+}
+
+#icon {
+    color: var(--nav-bg);
+}
+
+#card--stats--link {
+    color: var(--gray-text-color);
+}
+
+#line1 {
+    max-width: 478px;
+    margin: 18px auto;
+    border: 0.5px solid #F5F5F5;
+}
