@@ -7,7 +7,7 @@ export default function Cards(props) {
         <div>
             <div id='cards'>
                 <div id='card--img'>
-                    <img src={props.img}></img>
+                    <img src={props.img} alt='/'></img>
                 </div>
                 <div id='card--stats'>
                     <span>
@@ -17,7 +17,7 @@ export default function Cards(props) {
                         {props.location}
                     </span>
                     <span >
-                        <a id='card--stats--link' href={props.link} target={'_blank'}>View on google Maps</a>
+                        <a id='card--stats--link' href={props.link} target={'_blank'} rel="noreferrer">View on google Maps</a>
                     </span>
                     <h1 className='text title'>{props.title}</h1>
                     <p className='text date'><strong>{props.date}</strong></p>
